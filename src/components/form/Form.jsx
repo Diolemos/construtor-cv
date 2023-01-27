@@ -3,6 +3,7 @@ import Personal from "./Personal"
 import Whereabouts from "./Whereabouts"
 import Education from "./Education"
 import Experience from "./Experience"
+import Skills from "./Skills"
 
 const Form = ()=> {
     
@@ -15,6 +16,7 @@ const Form = ()=> {
             <Whereabouts/>
             <Experience/>  
             <Education/>
+            <Skills/>
         </form>
 
 
