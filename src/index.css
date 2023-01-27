@@ -45,8 +45,17 @@ background-color:blanchedalmond;
 
 .footer{
   width: 100%;
-  min-height: 300px;
+  min-height: 200px;
   background-color: black;
   color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
+ .footer a {
+  color: white;
+  font-size: 2rem;
+ }
 
