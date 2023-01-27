@@ -6,14 +6,14 @@ import Experience from "./Experience"
 import Skills from "./Skills"
 import Links from "./Links"
 
-const Form = ()=> {
+const Form = ({setData})=> {
     
       return <div className="form-container">
 
         <form className="form">
 
 
-            <Personal/>
+            <Personal updateData={setData}/>
             <Whereabouts/>
             <Experience/>  
             <Education/>

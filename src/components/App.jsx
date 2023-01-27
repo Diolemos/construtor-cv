@@ -21,7 +21,7 @@ function App() {
         return(
             <div className='app'> <Header></Header>
                 <div className='container'>
-                    <Form data={data}/>
+                    <Form data={data} setData={setData}/>
                     <Preview data={data}/>
                 </div>
                 
