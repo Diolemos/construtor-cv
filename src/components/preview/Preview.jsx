@@ -1,9 +1,9 @@
 import React from "react";
 
 
-class Preview extends React.Component {
-  render() {
-    return <div className="preview">
+function Preview(props) {
+  
+    return (<div className="preview">
         <div className="preview-body">  
          <div className="preview-header">
             <div className="preview-header__name">
@@ -20,14 +20,14 @@ class Preview extends React.Component {
          
          </div>
 
-         
+
          
 
         </div>
 
 
-    </div>;
-  }
+    </div>
+  )
 }
 
 
