@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaCloudRain } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <div className="footer">
-            <p>Made with 💚 in Joinville, Brazil</p>
+            <p>Made with  💚 &nbsp;<FaCloudRain /> &nbsp; in Joinville  , Brazil</p>
             <div className="social-icons">
                 <a href="https://github.com/dioLemos" target="_blank" rel="noopener noreferrer">
                     <FaGithub />

@@ -59,3 +59,10 @@ background-color:blanchedalmond;
   font-size: 2rem;
  }
 
+.social-icons{
+  width: 20%;
+  max-width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
