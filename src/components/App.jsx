@@ -14,7 +14,9 @@ function App() {
         adress: 'Joinville, SC, Brasil',
         links:[],
         education: [],
-        experience: [],
+        companyName: '',
+        experienceDate: '',
+        description: '',
         skills: [],
     })
     

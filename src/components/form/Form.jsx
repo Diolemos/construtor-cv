@@ -14,11 +14,11 @@ const Form = ({setData})=> {
 
 
             <Personal updateData={setData}/>
-            <Whereabouts/>
-            <Experience/>  
-            <Education/>
-            <Skills/>
-            <Links/>
+            <Whereabouts updateData={setData}/>
+            <Experience updateData={setData}/>  
+            <Education updateData={setData}/>
+            <Skills updateData={setData}/>
+            <Links updateData={setData}/>
         </form>
 
 
