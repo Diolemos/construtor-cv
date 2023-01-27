@@ -2,6 +2,7 @@ import React from "react"
 import Personal from "./Personal"
 import Whereabouts from "./Whereabouts"
 import Education from "./Education"
+import Experience from "./Experience"
 
 const Form = ()=> {
     
@@ -12,7 +13,7 @@ const Form = ()=> {
 
             <Personal/>
             <Whereabouts/>
-            {/* Experience&&<Experience/>  add experience? */}
+            <Experience/>  
             <Education/>
         </form>
 
