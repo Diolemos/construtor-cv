@@ -39,8 +39,7 @@ background-color:blanchedalmond;
 
 .preview{
   background-color: blueviolet;
-  width: 50%;
-}
+  flex: 0 0 75%;}
 
 
 
