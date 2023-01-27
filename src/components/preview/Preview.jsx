@@ -1,19 +1,19 @@
 import React from "react";
 
 
-function Preview(props) {
+function Preview({data}) {
   
     return (<div className="preview">
         <div className="preview-body">  
          <div className="preview-header">
             <div className="preview-header__name">
-            <h2>Fulano de Tal</h2>
-         <h5>Engenheiro de Software</h5>
+            <h2>{`${data.firstName} ${data.lastName}`}</h2>
+         <h5>{data.title}</h5>
             </div>
             <div className="preview-header__info">
-              <p className="adress">Joinville-SC, BR</p>
-              <p className="telephpne">+55 47 123456789</p>
-              <p className="email">fulano.tal@email.com</p>
+              <p className="adress">{data.adress}</p>
+              <p className="telephpne">{data.phone}</p>
+              <p className="email">{data.email}</p>
             </div>
          
          {/* Optional component: row of social links */}
